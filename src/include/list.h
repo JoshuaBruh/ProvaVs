@@ -1,6 +1,6 @@
 //HeaderFile,for prototypes, variables used ecc.
-#include<iostream>
-#include<vector>
+#include "database.h"
+
 using namespace std;
 class List{
     private: //private scope of the class, only the class can access this variables and function
@@ -17,7 +17,13 @@ class List{
         void print_list();
         void add_item();
         void delete_item();
+        bool find_userList();
+        void save_list();
         vector<string> list;
         string name;
+        vector<vector<string>> mainList;
+        unsigned int currentUserIndex;
+        Database data;
+        
 
 };
