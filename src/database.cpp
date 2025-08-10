@@ -34,6 +34,7 @@ vector<string> userList;
 
 
 
+
 vector<vector<string>> Database::read(){
     string line;
     ifstream db; //input file stream

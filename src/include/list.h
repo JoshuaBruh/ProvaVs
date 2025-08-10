@@ -1,4 +1,5 @@
 //HeaderFile,for prototypes, variables used ecc.
+
 #include "database.h"
 
 using namespace std;
